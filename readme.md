@@ -19,4 +19,5 @@ pip install -r requirements.txt
 
 ## Credits
 
+- [rhasspy/piper](https://github.com/rhasspy/piper)
 - [Kosinkadink/ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite)
