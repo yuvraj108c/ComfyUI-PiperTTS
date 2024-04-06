@@ -62,4 +62,4 @@ class PiperTTS:
                 "type":"output"
             }
         ]
-        return {"ui": {"previews":previews},"data": (audio_save_path)}
+        return {"ui": {"previews":previews},"result": (audio_save_path)}
