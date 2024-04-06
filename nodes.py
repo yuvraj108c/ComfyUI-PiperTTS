@@ -49,7 +49,7 @@ class PiperTTS:
             model_path=voice_model_path
         )
 
-        audio_save_name = f"{((re.sub('[^A-Za-z]', ' ', text)).strip())[:15]}.wav"
+        audio_save_name = f"{((re.sub('[^A-Za-z]', ' ', text)).strip()).replace(' ', '_')[:60]}.wav"
         audio_save_path = os.path.join(output_path,audio_save_name)
         wav_file = wave.open(audio_save_path, 'w')
         audio = TTS.synthesize(text, wav_file)
