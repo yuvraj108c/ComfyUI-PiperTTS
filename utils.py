@@ -5,7 +5,7 @@ import os
 
 base_url = "https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0"
 
-with open("/ComfyUI/custom_nodes/ComfyUI-PiperTTS/voices.json", 'r') as file:
+with open(os.path.join(os.path.dirname(__file__),"voices.json"), 'r') as file:
     voices_file = json.load(file)
 
 def download_file(url, save_path):
