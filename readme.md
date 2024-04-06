@@ -1,7 +1,8 @@
 # ComfyUI PiperTTS
 
 - Convert Text-to-Speech inside ComfyUI using [Piper](https://github.com/rhasspy/piper)
-- Refer to the list of [supported voices](https://github.com/rhasspy/piper/blob/master/VOICES.md) before using this node
+- Refer to the list of [supported voices](https://github.com/rhasspy/piper/blob/master/VOICES.md) before using this node.
+- Models are automatically downloaded based on selected voices.
 
 <p align="center">
   <img src="assets/demo.png" />
