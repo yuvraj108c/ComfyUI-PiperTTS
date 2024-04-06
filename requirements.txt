@@ -1,0 +1,4 @@
+piper-tts
+onnxruntime-gpu
+httpx
+tqdm
