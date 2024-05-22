@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-pipertts"
+description = "Convert Text-to-Speech inside ComfyUI using [a/Piper](https://github.com/rhasspy/piper)"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["piper-tts", "onnxruntime-gpu", "httpx", "tqdm"]
+
+[project.urls]
+Repository = "https://github.com/yuvraj108c/ComfyUI-PiperTTS"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-PiperTTS"
+Icon = ""
